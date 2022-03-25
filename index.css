@@ -1,0 +1,119 @@
+body{
+  height: 100%;
+  width: 100%;
+  /*background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("https://images.pexels.com/photos/2132250/pexels-photo-2132250.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  */background-size: cover;
+  position: absolute;
+}
+
+.navbar{
+  background-color: rgba(255,255,255,0.3);
+  position: relative;
+}
+
+.btn{
+  margin: 0 10px;
+}
+
+.img1{
+  background-image: url("https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    height:100%;
+    width:100%;
+    vertical-align: middle;
+
+}
+
+.text1{
+  color:white;
+  height:30%;
+  width: 50%;
+  position: absolute;
+   margin: 20% 30% 30% 10%;
+}
+
+.fa1{
+  margin-left: 50%;
+  color:white;
+}
+
+.img2{
+  background-image: url("https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    height:100%;
+    width:100%;
+    vertical-align: middle;
+}
+.text2{
+  color:white;
+  height: 30%;
+  width: 50%;
+  text-align: center;
+  position: absolute;
+  margin: 25% 20% 30% 22%;
+
+}
+
+.fa2{
+  color:white;
+}
+
+
+.img3{
+  background-image: url("https://images.pexels.com/photos/624015/pexels-photo-624015.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+    height:100%;
+    width:100%;
+    vertical-align: middle;
+}
+.text3{
+  color:white;
+  height: 30%;
+  width: 50%;
+  text-align: right;
+  position: absolute;
+  margin: 25% 20% 30% 40%;
+
+}
+
+.fa3{
+  color:white;
+  margin-right: 50%;
+}
+
+.contact{
+  background-color: green;
+  height:200px;
+    text-align: center;
+}
+
+.icons{
+  position: absolute;
+  margin-top: 30px;
+}
+
+.forms{
+  position: absolute;
+  margin-top: 30px;
+}
+
+.fa {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  color: white;
+
+}
+
+.fa:hover {
+  color: grey;
+}
+
+@media(max-height:600px) {
+  .img1,.img2,.img3{
+    height:220%;
+  }
+}
