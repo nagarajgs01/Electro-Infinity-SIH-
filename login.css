@@ -105,3 +105,13 @@ body{
   color: black;
 
 }
+
+@media(max-width:1000px) {
+  body{
+    background-image: url("https://images.pexels.com/photos/11358721/pexels-photo-11358721.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+  }
+}
